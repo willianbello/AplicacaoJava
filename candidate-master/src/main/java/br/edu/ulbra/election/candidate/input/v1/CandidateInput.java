@@ -15,35 +15,35 @@ public class CandidateInput {
     @ApiModelProperty(example = "3", notes = "Candidate Election Id")
     private Long electionId;
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public Long getPartyId() {
-        return partyId;
+    public String getName() {
+        return name;
     }
 
     public void setPartyId(Long partyId) {
         this.partyId = partyId;
     }
 
-    public Long getNumberElection() {
-        return numberElection;
+    public Long getPartyId() {
+        return partyId;
     }
 
     public void setNumberElection(Long numberElection) {
         this.numberElection = numberElection;
     }
 
-    public Long getElectionId() {
-        return electionId;
+    public Long getNumberElection() {
+        return numberElection;
     }
 
     public void setElectionId(Long electionId) {
         this.electionId = electionId;
+    }
+
+    public Long getElectionId() {
+        return electionId;
     }
 }
