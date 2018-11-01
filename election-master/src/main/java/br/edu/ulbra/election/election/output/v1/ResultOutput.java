@@ -10,7 +10,7 @@ public class ResultOutput {
 
     @ApiModelProperty(notes = "Election Information")
     private ElectionOutput election;
-    @ApiModelProperty(notes = "Candidate Vote Information")
+    @ApiModelProperty(notes = "Election Vote Information")
     private List<ElectionCandidateResultOutput> candidates;
     @ApiModelProperty(example = "10000", notes = "Total Votes")
     private Long totalVotes;

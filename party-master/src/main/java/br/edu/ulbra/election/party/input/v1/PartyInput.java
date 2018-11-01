@@ -6,12 +6,18 @@ import io.swagger.annotations.ApiModelProperty;
 @ApiModel(description = "Party Input Information")
 public class PartyInput {
 
+    @ApiModelProperty(example = "1", notes = "Party Unique Identification")
+    private Long id;
     @ApiModelProperty(example = "PJ", notes = "Party Code")
     private String code;
     @ApiModelProperty(example = "Party of Java", notes = "Party Name")
     private String name;
     @ApiModelProperty(example = "77", notes = "Party Number")
     private Integer number;
+
+    public Long getId() { return id; }
+
+    public void setId(Long id) { this.id = id; }
 
     public String getCode() {
         return code;

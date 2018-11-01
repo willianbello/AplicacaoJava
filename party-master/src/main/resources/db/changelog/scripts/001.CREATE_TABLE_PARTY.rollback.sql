@@ -1,1 +1,1 @@
-drop table candidate;
+drop table party;

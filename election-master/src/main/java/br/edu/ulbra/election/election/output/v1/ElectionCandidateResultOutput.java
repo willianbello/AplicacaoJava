@@ -4,10 +4,10 @@ package br.edu.ulbra.election.election.output.v1;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-@ApiModel(description = "Candidate Result Output Information")
+@ApiModel(description = "Election Result Output Information")
 public class ElectionCandidateResultOutput {
 
-    @ApiModelProperty(notes = "Candidate Unique Identification")
+    @ApiModelProperty(notes = "Election Unique Identification")
     private CandidateOutput candidate;
 
     @ApiModelProperty(notes = "Total Votes")
